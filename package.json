@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "Hannes Feldt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlayaN/magicavoxel-utils.git"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
